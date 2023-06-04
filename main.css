@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lobster", cursive;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  padding: 16px;
+  background-color: #008080;
+  text-decoration: underline;
+  border-style: groove;
+  border-width: 10px;
+  border-color: black;
+  border-radius: 15px;
+}
+header nav li a {
+  display: inline;
+  color: white;
+}
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.marcs img {
+  height: 30px;
+}
+.marcs li {
+  display: inline;
+}
+section {
+  padding: 16px 0;
+}
+section h2 {
+  margin-bottom: 10px;
+  border-width: 7px;
+  border-style: groove;
+  border-radius: 10px;
+  text-decoration-line: underline;
+  border-color: black;
+  background-color: #008080;
+}
+section img {
+  margin-right: ;
+}
+.confi-img img {
+  height: 24px;
+}
+.cadastro form,
+label,
+input,
+textarea {
+  display: block;
+  justify-content: left;
+  padding: 5px;
+  resize: none;
+}
+form button:hover {
+  background-color: #008080;
+}
+.testeDePosi h3,
+p {
+  justify-content: last baseline;
+}
+footer {
+  background-color: #008080;
+  color: aliceblue;
+  padding: 16px 0;
+  border-style: groove;
+  border-width: 10px;
+  border-color: black;
+}
