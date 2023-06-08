@@ -8,73 +8,80 @@
 
 header {
   padding: 16px;
-  background-color: #008080;
+  background-color: #e62b86;
   text-decoration: underline;
-  border-style: groove;
+  border-style: ridge;
   border-width: 10px;
   border-color: black;
   border-radius: 15px;
 }
-header nav li a {
-  display: inline;
-  color: white;
-}
-.container {
-  max-width: 1280px;
-  width: 100%;
-  margin: 0 auto;
-}
-header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+body{
+  background-color: #f7b5cb;
 }
 
-.marcs img {
-  height: 30px;
+h1,
+h2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
-.marcs li {
-  display: inline;
+
+li {
+  margin-left: 20px;
+  display: ;
 }
-section {
-  padding: 16px 0;
+h3 {
 }
-section h2 {
-  margin-bottom: 10px;
-  border-width: 7px;
-  border-style: groove;
+.container {
+  flex-direction: row-reverse;
+}
+.history {
+  border-style: ridge;
+  border-color: #000000;
+  background-color: #e62b86;
   border-radius: 10px;
-  text-decoration-line: underline;
-  border-color: black;
-  background-color: #008080;
+  border-width: 20px;
+  padding: 10px;
 }
-section img {
-  margin-right: ;
-}
-.confi-img img {
-  height: 24px;
-}
-.cadastro form,
-label,
-input,
-textarea {
+.cadastro {
+  flex-direction: column;
   display: block;
-  justify-content: left;
-  padding: 5px;
-  resize: none;
+  border-style: ridge;
+  margin-bottom: 25px;
+  width: 320px;
+  padding: 15px;
+  line-height: ;
+  background-color:#f7b5cb;
+  border-color: #000000;
+  align-items: center;
 }
-form button:hover {
-  background-color: #008080;
+.cadastro   button {
+  display: block;
+  width: 320px;
+  backgroun
 }
-.testeDePosi h3,
-p {
-  justify-content: last baseline;
+header h4 {
 }
-footer {
-  background-color: #008080;
-  color: aliceblue;
-  padding: 16px 0;
-  border-style: groove;
-  border-width: 10px;
-  border-color: black;
+.styles_work {
+  border-style: outset;
+  border-left: px;
+  border-radius: 15px;
+  display: flex;
+  border-width: 15px;
+  border-color: #736a81;
+}
+.styles_work p {
+  align-items: center;
+  display: flex;
+  text-decoration: underline;
+  margin-left: 8px;
+}
+main img {
+  height: 100px;
+}
+footer img{
+  height: 100px;
+  align-items: end;
+  justify-content: end;
+
 }
